@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI QA Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🤖 AI QA Automation</h1>
+
+  <textarea id="userStory" placeholder="Enter user story..."></textarea>
+
+  <div>
+    <button onclick="generate()">Generate</button>
+    <button onclick="runTests()">Run Tests</button>
+    <button onclick="viewReport()">View Report</button>
+  </div>
+
+  <div id="stats"></div>
+
+  <pre id="output"></pre>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

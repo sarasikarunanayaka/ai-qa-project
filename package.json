@@ -1,0 +1,24 @@
+{
+  "name": "ai-qa-project",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2",
+    "ollama": "^0.6.3",
+    "openai": "^6.34.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.59.1"
+  }
+}
